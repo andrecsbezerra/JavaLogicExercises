@@ -24,12 +24,8 @@ public class Exercise03 {
                 }
 
                 validInput = true;
-            }catch (InputMismatchException e){
-                System.out.println("Please type a valid number.");
-                System.out.println();
-                sc.nextLine();
-            }catch(Exception e){
-                System.out.println("Something went wrong");
+            }catch (InputMismatchException e) {
+                System.out.println("Please type a valid number.\n");
                 sc.nextLine();
             }
         }
