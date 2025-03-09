@@ -1,4 +1,3 @@
-import java.sql.SQLOutput;
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
@@ -6,7 +5,7 @@ public class Exercise12 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        double finalValue = 0.0;
+        double finalValue = 0;
         boolean validInput = false;
 
         while (!validInput) {
