@@ -1,24 +1,37 @@
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class Exercise01 {
     public static void main(String[] args) {
-        int a,b,c,sumAB;
-
         Scanner sc = new Scanner(System.in);
-        System.out.println("Type the value of A: ");
-        a = sc.nextInt();
-        System.out.println("Type the value of B: ");
-        b = sc.nextInt();
-        System.out.println("Type the value of C: ");
-        c = sc.nextInt();
+        int a,b,c,sumAB;
+        boolean validInput = false;
 
-        sumAB = a + b;
-        System.out.println("The sum of A + B is: " + sumAB);
+        while (!validInput){
+            try {
+                System.out.println("Type the value of A: ");
+                a = sc.nextInt();
+                System.out.println("Type the value of B: ");
+                b = sc.nextInt();
+                System.out.println("Type the value of C: ");
+                c = sc.nextInt();
 
-        if (sumAB > c){
-            System.out.println("C > sum(A,B)");
-        }else
-            System.out.println("C <= sum(A,B)");
+                sumAB = a + b;
+                System.out.println("The sum of A + B is: " + sumAB);
 
+                if (sumAB > c){
+                    System.out.println("Sum(A,B) > C");
+                }else
+                    System.out.println("Sum(A,B) <= C");
+                validInput = true;
+            }catch (InputMismatchException e){
+                System.out.println("Please type a valid number");
+                sc.nextLine();
+            }catch(Exception e){
+                System.out.println("Something went wrong");
+                sc.nextLine();
+            }
+        }
+        sc.close();
     }
 }
