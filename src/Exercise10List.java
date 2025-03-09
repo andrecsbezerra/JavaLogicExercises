@@ -12,7 +12,7 @@ public class Exercise10List {
             try {
                 System.out.println("Type the first grade: ");
                 double a = sc.nextDouble();
-                System.out.println("Type the second grade: ");;
+                System.out.println("Type the second grade: ");
                 double b = sc.nextDouble();
                 System.out.println("Type the third grade: ");
                 double c = sc.nextDouble();
