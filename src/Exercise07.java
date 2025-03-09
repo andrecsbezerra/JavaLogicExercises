@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class Exercise07 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        Boolean validInput = false;
+        boolean validInput = false;
         while (!validInput){
             try {
                 System.out.println("Type the first Boolean Value:");
