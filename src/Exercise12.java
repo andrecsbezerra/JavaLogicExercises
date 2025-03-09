@@ -6,7 +6,7 @@ public class Exercise12 {
         Scanner sc = new Scanner(System.in);
 
         boolean validInput = false;
-
+        double finalValue = 0;
         while (!validInput) {
             try {
                 System.out.print("Enter the product price: $ ");
@@ -21,7 +21,7 @@ public class Exercise12 {
 
                 switch (paymentMethod) {
                     case 1:
-                        double finalValue = productValue * 0.85;
+                        finalValue = productValue * 0.85;
                         System.out.printf("Amount to be paid: $ %.2f (15%% discount)\n", finalValue);
                         break;
                     case 2:
