@@ -29,6 +29,7 @@ public class Exercise14 {
             }catch (InputMismatchException e){
                 System.out.println("Invalid value");
             }
+            validInput = true;
         }
 
         scanner.close();
