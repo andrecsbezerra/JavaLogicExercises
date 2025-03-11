@@ -1,9 +1,5 @@
-import java.util.InputMismatchException;
-import java.util.Scanner;
-
 public class Exercise18 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
             double yearsNedded = 0;
             double saraHeight = 110;
             double franciscoHeight = 150;
