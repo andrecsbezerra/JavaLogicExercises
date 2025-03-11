@@ -17,7 +17,7 @@ public class Exercise16 {
                 System.out.println("Equilateral Triangle");
             }else if(n1 == n2 || n2 == n3 || n1 == n3){
                 System.out.println("Isosceles Triangle");
-            } else if (n1 != n2 && n2 != n3 && n1 != n3 ) {
+            } else {
                 System.out.println("Scalene Triangle");
             }
         }catch (InputMismatchException e ){
