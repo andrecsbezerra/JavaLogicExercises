@@ -39,11 +39,3 @@ Welcome to the Programming Exercises Project! This repository contains a collect
 
 12. **Conventional Commits** ✅
     - Followed the Conventional Commits specification for clear and structured commit messages.
-
-## 🎉 Getting Started
-
-To get started with this project, clone the repository and run the Java files in your preferred IDE. Make sure to have Java installed on your machine.
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
