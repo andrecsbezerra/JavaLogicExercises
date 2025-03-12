@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exercise04 {
+public class PredecessorAndSuccessor {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int num,numSuccessor,numPredecessor;

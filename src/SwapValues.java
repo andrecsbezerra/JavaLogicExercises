@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exercise14 {
+public class SwapValues {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         boolean validInput = false;

@@ -3,7 +3,7 @@ import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
 
-public class Exercise10List {
+public class AverageGradesList {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean validInput = false;

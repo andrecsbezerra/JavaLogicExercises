@@ -1,4 +1,4 @@
-public class Exercise18 {
+public class FranciscoSaraGrowth {
     public static void main(String[] args) {
             double yearsNedded = 0;
             double saraHeight = 110;

@@ -1,7 +1,7 @@
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
-public class Exercise11 {
+public class AverageGrades {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         boolean validInput = false;
@@ -9,21 +9,14 @@ public class Exercise11 {
         while (!validInput){
             try {
                 System.out.println("Type the first grade: ");
-                double a = sc.nextDouble();
+                double a = sc.nextInt();
                 System.out.println("Type the second grade:");
-                double b = sc.nextDouble();
+                double b = sc.nextInt();
                 System.out.println("Type the third grade: ");
-                double c = sc.nextDouble();
-                System.out.println("Type the third grade: ");
-                double d = sc.nextDouble();
+                double c = sc.nextInt();
 
-                double media = (a + b + c + d) / 4;
+                double media = (a + b + c) / 3;
                 System.out.println("The media is: " + media);
-                if (media >= 7){
-                    System.out.println("Approved");
-                }else {
-                    System.out.println("Reproved ");
-                }
                 validInput = true;
             }catch (InputMismatchException e){
                 System.out.println("Please type a valid number");

@@ -1,4 +1,4 @@
-public class Exercise23 {
+public class NetSalaryCalculationForTeacher {
     public static void main(String[] args) {
         double hourlyRate = 40;
         int classesTaughtInTheMonth = 230;
