@@ -3,19 +3,16 @@ import java.util.Scanner;
 
 public class TemperatureConversion {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        try{
+        try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Welcome to the Temperature Converter");
             System.out.println("Type the Fahrenheit Temperature: ");
             double fahrenheit = sc.nextDouble();
 
-            double celcius = (5 * ( fahrenheit-32) / 9);
+            double celcius = (5 * (fahrenheit - 32) / 9);
             System.out.println("Fahrenheit: " + fahrenheit);
             System.out.println("Celcius: " + celcius);
-        }catch (InputMismatchException e ){
+        } catch (InputMismatchException e) {
             System.out.println("Type a valid value");
-        }finally {
-            sc.close();
         }
     }
 }
